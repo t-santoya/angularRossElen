@@ -1,0 +1,24 @@
+.navbar{
+    padding: 20px;
+    background-color: #e4d8be;
+}
+.logo{
+    width: 60px;
+    position:relative;
+    left: 200px;
+}
+.navbar-nav{
+position: absolute;
+right: 200px;
+}
+.nav-link{
+    color: rgb(20, 19, 19);
+    font-size: 18px;
+}
+.nav-link:hover{
+    color: rgb(18, 236, 22);
+}
+.nav-item{
+    list-style: none;
+}
+

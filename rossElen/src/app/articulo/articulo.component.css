@@ -1,0 +1,15 @@
+.contenedor {
+    display: inline-flex;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+.texto1 .imagenSenora {
+    flex: 1;
+    padding: 10px;
+}
+.texto1{
+    align-self: center;
+}
+.quienes{
+    margin-top: 50px;
+}

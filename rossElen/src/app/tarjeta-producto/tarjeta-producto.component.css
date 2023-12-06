@@ -1,0 +1,17 @@
+.contenedor3 {
+    width: 100%;
+}
+.contproductos{
+    display:flex;
+    justify-content: center;
+    margin-top: 100px;
+
+    
+    text-align: center;
+}
+.conocer{
+    margin-left: 480px;
+    display: inline;
+    position: relative;
+    
+}

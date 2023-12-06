@@ -1,0 +1,27 @@
+footer{
+    margin: 0;
+    text-align: center;
+    background-color: rgb(235, 232, 231);
+    padding: 20px;
+
+}
+.pieprincipal{
+    display:flex;
+    justify-content:space-around;
+    padding: 70px;
+}
+.catalogo{
+    width: 150px;
+}
+.invima{
+    width: 70px;
+    margin-left: 10px;
+}
+.elen{
+    width: 100px;
+}
+.pie{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
