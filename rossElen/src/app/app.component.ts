@@ -9,11 +9,12 @@ import { TarjetaProductoComponent } from './tarjeta-producto/tarjeta-producto.co
 import { FooterComponent } from './footer/footer.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
+import { DistribuidoresComponent } from './distribuidores/distribuidores.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, HeaderComponent, InicioComponent, NosotrosComponent, FooterComponent],
+  imports: [CommonModule, RouterOutlet, HeaderComponent, InicioComponent, NosotrosComponent, DistribuidoresComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
