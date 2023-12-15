@@ -14,11 +14,12 @@ import { ProductosComponent } from './productos/productos.component';
 import { MarcasPropiasComponent } from './marcas-propias/marcas-propias.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { PedidoComponent } from './pedido/pedido.component';
+import { BotonComponent } from './boton/boton.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, HeaderComponent, InicioComponent, NosotrosComponent, DistribuidoresComponent, FooterComponent, ProductosComponent, MarcasPropiasComponent, ContactoComponent, PedidoComponent],
+  imports: [CommonModule, RouterOutlet, HeaderComponent, InicioComponent, NosotrosComponent, DistribuidoresComponent, FooterComponent, ProductosComponent, MarcasPropiasComponent, ContactoComponent, PedidoComponent, BotonComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

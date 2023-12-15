@@ -1,17 +1,17 @@
-.contenedor3 {
+.contproductos{
     width: 100%;
 }
-.contproductos{
-    display:flex;
-    justify-content: center;
-    margin-top: 100px;
-
-    
-    text-align: center;
+.contenedor3{
+width: 100%;
 }
-.conocer{
-    margin-left: 480px;
-    display: inline;
-    position: relative;
+.contprod{
     
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
+    justify-content: space-between; 
+}
+.contprod div {
+    
+    width: calc(25% - 10px); /* Ajusta el ancho para que haya 4 elementos por fila */
+    margin-bottom: 20px; 
 }
