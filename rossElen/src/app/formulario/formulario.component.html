@@ -1,36 +1,40 @@
 <div class="container-formulario">
     <div class="formulario2">
         <h2>Registro</h2>
-        <form id="form-registro" class="registro">
+        <form [formGroup]="registroForm" id="form-registro" class="registro">
             <div class="form-nombre">
                 <label for="nombre" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+                <input type="text" formControlName="nombre" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
                 <span id="nombre-error" class="form-error"></span>
             </div>
             <div class="form-apellido">
                 <label for="apellido" class="form-label">apellido</label>
-                <input type="text" class="form-control" id="apellido" placeholder="Ingresa tu apellido">
+                <input type="text" formControlName="apellido" class="form-control" id="apellido" placeholder="Ingresa tu apellido">
                 <span id="apellido-error" class="form-error"></span>
             </div>
             <div class="form-ciudad">
                 <label for="ciudad" class="form-label">ciudad </label>
-                <input type="ciudad" class="form-control" id="ciudad" placeholder="ciudad">
+                <input type="ciudad" formControlName="city" class="form-control" id="ciudad" placeholder="ciudad">
                 <span id="ciudad-error" class="form-error"></span>
             </div>
             <div class="form-correo">
                 <label for="email" class="form-label">Correo Electrónico</label>
-                <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+                <input type="email" formControlName="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
                 <span id="correo-error" class="form-error"></span>
             </div>
             <div class="form-clave">
                 <label for="clave" class="form-label">Contraseña</label>
-                <input type="password" class="form-control" id="clave">
+                <input type="password" formControlName="password" class="form-control" id="clave">
                 <span id="clave-error" class="form-error"></span>
             </div>
+            <div *ngIf="mostrarMensaje">
+                <p>Todos los campos son obligatorios</p>
+            </div>
             <div class="form-enviar">
-                <button type="submit" class="boton-enviar" id="enviar">ENVIAR</button>
+                <button type="submit" (click)="enviar()" class="boton-enviar" id="enviar">ENVIAR</button>
                 <span id="enviar-error" class="form-error"></span>
             </div>
         </form>
+        
     </div>
 </div>
