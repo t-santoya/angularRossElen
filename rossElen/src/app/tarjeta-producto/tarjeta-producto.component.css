@@ -1,17 +1,30 @@
-.contproductos{
-    width: 100%;
+.conocer{
+    position: absolute;
+    margin-top: -400px;
+    background-color: blueviolet;
 }
 .contenedor3{
 width: 100%;
+display: flex;
+fl
+justify-content: center;
+align-items: center;
 }
-.contprod{
-    
+.contproductos{
+    width: 100%;
     display: flex;
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
-    justify-content: space-between; 
-}
-.contprod div {
+    justify-content: space-around;
     
-    width: calc(25% - 10px); /* Ajusta el ancho para que haya 4 elementos por fila */
-    margin-bottom: 20px; 
+}
+.producto{
+    width: 25%;
+    box-sizing: border-box;
+}
+.fragancias{
+    width: 300px;
+    height: 300px;
+}
+.tienda{
+    background-color: brown;
+margin-top: 20px;
 }
