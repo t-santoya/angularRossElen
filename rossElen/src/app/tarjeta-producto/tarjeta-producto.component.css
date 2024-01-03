@@ -1,12 +1,11 @@
 .conocer{
     position: absolute;
     margin-top: -400px;
-    background-color: blueviolet;
 }
 .contenedor3{
 width: 100%;
 display: flex;
-fl
+
 justify-content: center;
 align-items: center;
 }
@@ -25,6 +24,5 @@ align-items: center;
     height: 300px;
 }
 .tienda{
-    background-color: brown;
 margin-top: 20px;
 }
